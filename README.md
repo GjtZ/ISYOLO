@@ -142,18 +142,19 @@ bash my_streamyolo.sh
 ## Citation
 Please cite the following paper if this repo helps your research:
 ```bibtex
-@inproceedings{streamyolo,
+@inproceedings{isyolo,
   title={Exploiting implicit knowledge for streaming perception object detection},
-  author={Yang, Jinrong and Liu, Songtao and Li, Zeming and Li, Xiaoping and Sun, Jian},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={5385--5395},
-  year={2022}
+  author={Tang,Qingsong and Guo,Jinting and Zhou,Xuexiao and Li,Yongkang and Yang,Mingzhi and Liu,Yang 
+},
+  booktitle={***},
+  pages={***},
+  year={***}
 }
-@article{yang2022streamyolo,
-  title={StreamYOLO: Real-time Object Detection for Streaming Perception},
-  author={Yang, Jinrong and Liu, Songtao and Li, Zeming and Li, Xiaoping and Sun, Jian},
-  journal={arXiv preprint arXiv:2207.10433},
-  year={2022}
+@article{***,
+  title={****},
+  author={Tang,Qingsong and Guo,Jinting and Zhou,Xuexiao and Li,Yongkang and Yang,Mingzhi and Liu,Yang },
+  journal={***},
+  year={***}
 }
 ```
 
