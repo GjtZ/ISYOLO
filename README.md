@@ -5,7 +5,7 @@
   <img src='assets/ISYOLO.png' width='721'/>
 </p>
 
-[Jinrong Yang](https://scholar.google.com.hk/citations?user=8Of_NYQAAAAJ&hl=zh-CN), [Songtao Liu](https://scholar.google.com.hk/citations?hl=zh-CN&user=xY9qK1QAAAAJ), [Zeming Li](https://www.zemingli.com/), [Xiaoping Li](http://mse.hust.edu.cn/info/1143/1374.htm), [Sun Jian](http://www.jiansun.org/) <br>
+[Qingsong Tang], [Jinting Guo], [Xuexiao Zhou], [Yongkang Li], [Mingzhi Yang], [Yang Liu] <br>
 Exploiting implicit knowledge for streaming perception object detection, CVPR 2022 (Oral)<br>
 **[[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_Real-Time_Object_Detection_for_Streaming_Perception_CVPR_2022_paper.pdf)]** <br />
 
