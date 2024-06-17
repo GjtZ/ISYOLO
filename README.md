@@ -6,8 +6,8 @@
 </p>
 
 [Qingsong Tang], [Jinting Guo], [Xuexiao Zhou], [Yongkang Li], [Mingzhi Yang], [Yang Liu] <br>
-Exploiting implicit knowledge for streaming perception object detection, CVPR 2022 (Oral)<br>
-**[[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_Real-Time_Object_Detection_for_Streaming_Perception_CVPR_2022_paper.pdf)]** <br />
+Exploiting implicit knowledge for streaming perception object detection, (Submited)<br>
+**[[Paper]]** <br />
 
 
 
@@ -15,9 +15,9 @@ Exploiting implicit knowledge for streaming perception object detection, CVPR 20
 
 |Model |size |velocity | sAP<br>0.5:0.95 | sAP50 |sAP75| weights | COCO pretrained weights |
 | ------        |:---: | :---:       |:---:     |:---:  | :---: | :----: | :----: |
-|[ISYOLO-s](./cfgs/s_s50_onex_dfp_tal_flip.py)    |600×960  |1x      |29.8     |49.1 | 30.1 |[github](https://github.com/yancie-yjr/StreamYOLO/releases/download/0.1.0rc/s_s50_one_x.pth) |[github](https://github.com/yancie-yjr/StreamYOLO/releases/download/0.1.0rc/yolox_s.pth) |
-|[ISYOLO-m](./cfgs/m_s50_onex_dfp_tal_flip.py)    |600×960  |1x      |34.3     |55.0 | 35.2 |[github](https://github.com/yancie-yjr/StreamYOLO/releases/download/0.1.0rc/m_s50_one_x.pth) |[github](https://github.com/yancie-yjr/StreamYOLO/releases/download/0.1.0rc/yolox_m.pth) |
-|[ISYOLO-l](./cfgs/l_s50_onex_dfp_tal_flip.py)    |600×960  |1x      |37.8     |58.4 | 38.2 |[github](https://github.com/yancie-yjr/StreamYOLO/releases/download/0.1.0rc/l_s50_one_x.pth) |[github](https://github.com/yancie-yjr/StreamYOLO/releases/download/0.1.0rc/yolox_l.pth) |
+|[ISYOLO-s](./cfgs/s_s50_onex_dfp_tal_flip.py)    |600×960  |1x      |29.8     |49.1 | 30.1 |[github](https://github.com/GjtZ/ISYOLO/releases/download/0.1.0rc/s_s50_one_x.pth) |[github](https://github.com/yancie-yjr/StreamYOLO/releases/download/0.1.0rc/yolox_s.pth) |
+|[ISYOLO-m](./cfgs/m_s50_onex_dfp_tal_flip.py)    |600×960  |1x      |34.3     |55.0 | 35.2 |[github](https://github.com/GjtZ/ISYOLO/releases/download/0.1.0rc/m_s50_one_x.pth) |[github](https://github.com/yancie-yjr/StreamYOLO/releases/download/0.1.0rc/yolox_m.pth) |
+|[ISYOLO-l](./cfgs/l_s50_onex_dfp_tal_flip.py)    |600×960  |1x      |37.8     |58.4 | 38.2 |[github](https://github.com/GjtZ/ISYOLO/releases/download/0.1.0rc/l_s50_one_x.pth) |[github](https://github.com/yancie-yjr/StreamYOLO/releases/download/0.1.0rc/yolox_l.pth) |
 
 ## Quick Start
 
