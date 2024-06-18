@@ -57,19 +57,20 @@ The hash strings represent different video sequences in Argoverse, and `ring_fro
 <summary>Installation</summary>
 
 ```shell
-# basic python libraries
-conda create --name streamyolo python=3.7
+# basic python libraries    py3.7+ torch1.7.1+mmcv1.1.5   or  py3.9+torch1.13.1+mmcv2.0.0
+conda create --name streamyolo python=3.7         # or conda create --name streamyolo python=3.9  
 
 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+# or torch1.13.1+cu116   
 
 pip3 install yolox==0.3
-git clone git@github.com:yancie-yjr/StreamYOLO.git
+git clone git@github.com:GjtZ/ISYOLO.git
 
 
 
 cd ISYOLO/
 
-# add StreamYOLO to PYTHONPATH and add this line to ~/.bashrc or ~/.zshrc (change the file accordingly)
+# add ISYOLO to PYTHONPATH and add this line to ~/.bashrc or ~/.zshrc (change the file accordingly)
 ADDPATH=$(pwd)
 echo export PYTHONPATH=$PYTHONPATH:$ADDPATH >> ~/.bashrc
 source ~/.bashrc
@@ -78,7 +79,8 @@ source ~/.bashrc
 # Please replace `{cu_version}` and ``{torch_version}`` with the versions you are currently using.
 # You will get import or runtime errors if the versions are incorrect.
 pip install mmcv-full==1.1.5 -f https://download.openmmlab.com/mmcv/dist/{cu_version}/{torch_version}/index.html
-
+# pip install mmcv-full==1.1.5 -f https://download.openmmlab.com/mmcv/dist/cu110/torch1.7.1/index.html
+# pip install mmcv==2.0.0 -f https://download.openmmlab.com/mmcv/dist/cu116/torch1.13/index.html     
 ```
 
 </details>
